@@ -1,0 +1,17 @@
+@media screen and (max-width: 970px){
+    .no-phone{
+        display: no;
+        
+    }
+    #main{
+        display: flexible;
+        flexible direction: column;
+    }
+    #department{
+        order: 2;
+    }
+    #sidebar{
+        order: 1;
+        width: 100%;
+    }
+}
